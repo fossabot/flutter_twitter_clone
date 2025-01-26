@@ -1,0 +1,28 @@
+name: License Verification
+
+on:
+  pull_request:
+    branches: '**'
+
+jobs:
+  verify-license:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install Dart
+        uses: dart-lang/setup-dart@v1
+        
+      - name: Install Very Good CLI
+        run: dart pub global activate very_good_cli
+        
+      - name: Verify License Headers
+        run:  very_good packages check licenses --dependency-type=transitive
+        
+      - name: Check License Compliance
+        if: failure()
+        run: |
+          echo "::error::License verification failed. Please ensure all files have proper license headers."
+          exit 1
