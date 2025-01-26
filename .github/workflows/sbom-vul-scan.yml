@@ -1,7 +1,7 @@
 name: SBOM Generation and Vulnerability Scan
 
 on:
-  push:
+  pull_request:
     branches:
       - '**'  # Trigger on all branches
 #   pull_request:
