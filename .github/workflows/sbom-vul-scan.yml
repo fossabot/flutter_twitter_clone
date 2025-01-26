@@ -4,9 +4,6 @@ on:
   pull_request:
     branches:
       - '**'  # Trigger on all branches
-#   pull_request:
-#     branches:
-#       - '**'  # Trigger on all pull requests
 
 jobs:
   sbom-and-vuln-scan:
