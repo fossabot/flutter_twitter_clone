@@ -1,4 +1,5 @@
-## Fwitter - Twitter clone in flutter [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_twitter_clone?style=social) 
+## Fwitter - Twitter clone in flutter [![GitHub stars](https://img.shields.io/github/stars/Thealphamerc/flutter_twitter_clone?style=social)](https://github.com/login?return_to=%2FTheAlphamerc%flutter_twitter_clone) ![GitHub forks](https://img.shields.io/github/forks/TheAlphamerc/flutter_twitter_clone?style=social) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faditya-fyers%2Fflutter_twitter_clone.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Faditya-fyers%2Fflutter_twitter_clone?ref=badge_shield)
+
 
 A working Twitter clone built in Flutter using Firebase auth,realtime,firestore database and storage.
 
@@ -97,6 +98,9 @@ Content Prefrences Page      |  Display Setting Page    |  Data Settings Page   
 
 
 
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Faditya-fyers%2Fflutter_twitter_clone.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Faditya-fyers%2Fflutter_twitter_clone?ref=badge_large)
 
 ## Getting started 
 * Project setup instructions are given at [Wiki](https://github.com/TheAlphamerc/flutter_twitter_clone/wiki/Gettings-Started) section.
